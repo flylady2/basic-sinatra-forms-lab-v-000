@@ -8,13 +8,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    "Team Name: #{params[team_name]}"
-    "Coach: #{params[coach]}"
-    "Team Name: #{params[team_name]}"
-    "Team Name: #{params[team_name]}"
-    "Team Name: #{params[team_name]}"
-    "Team Name: #{params[team_name]}"
-    "Team Name: #{params[team_name]}"
+    erb :team
 
   end
 
